@@ -1,6 +1,6 @@
-# MAINTENANCE_STATE
+# MAINTENANCE
 
-Status: `IF_APPLICABLE`
+Status: `Conditional`
 
 ## Requirement
 
@@ -21,3 +21,8 @@ Archived or maintenance-only repos state support status, accepted change types, 
 ```md
 > Maintenance status: security-only. Feature PRs are not accepted. For new work use `new-service`.
 ```
+
+## References
+
+- [`steipete/agent-rules` README](https://github.com/steipete/agent-rules/blob/main/README.md)
+- [`steipete/VibeMeter` CLAUDE.md](https://github.com/steipete/VibeMeter/blob/main/CLAUDE.md)

@@ -1,6 +1,6 @@
-# HEALTHCHECK_SMOKE
+# HEALTHCHECK
 
-Status: `SERVICE`
+Status: `Service`
 
 ## Requirement
 
@@ -24,3 +24,8 @@ Deployed or local services expose health/readiness smoke commands suitable for C
 - Staging: `curl -fsS https://staging.example.com/healthz`
 - Webhook smoke: `pnpm smoke:webhook -- --base-url http://127.0.0.1:3000`
 ```
+
+## References
+
+- [`steipete/ReleaseBar` AGENTS.md](https://github.com/steipete/ReleaseBar/blob/main/AGENTS.md)
+- [`steipete/deepsec` CONTRIBUTING.md](https://github.com/steipete/deepsec/blob/main/CONTRIBUTING.md)

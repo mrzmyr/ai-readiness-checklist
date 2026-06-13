@@ -1,6 +1,6 @@
-# CONFIG_ENV_CONTRACT
+# CONFIG
 
-Status: `SERVICE`
+Status: `Service`
 
 ## Requirement
 
@@ -30,3 +30,9 @@ Required:
 Optional:
 - `REDIS_URL`: defaults to local Docker Redis in dev.
 ```
+
+## References
+
+- [`steipete/sweetlink` AGENTS.md](https://github.com/steipete/sweetlink/blob/main/AGENTS.md)
+- [`steipete/stats-store` CLAUDE.md](https://github.com/steipete/stats-store/blob/main/CLAUDE.md)
+- [`steipete/ReleaseBar` AGENTS.md](https://github.com/steipete/ReleaseBar/blob/main/AGENTS.md)

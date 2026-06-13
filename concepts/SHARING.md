@@ -1,6 +1,6 @@
-# SHARED_RULES_BOUNDARY
+# SHARING
 
-Status: `IF_APPLICABLE`
+Status: `Conditional`
 
 ## Requirement
 
@@ -26,3 +26,8 @@ Repo-local rules above override shared-agent-rules below.
 ...
 <!-- END shared-agent-rules -->
 ```
+
+## References
+
+- [`steipete/summarize` AGENTS.md](https://github.com/steipete/summarize/blob/main/AGENTS.md)
+- [`steipete/agent-scripts` AGENTS.MD](https://github.com/steipete/agent-scripts/blob/main/AGENTS.MD)

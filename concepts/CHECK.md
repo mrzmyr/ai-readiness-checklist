@@ -1,6 +1,6 @@
-# CHECK_SCRIPT
+# CHECK
 
-Status: `REQUIRED`
+Status: `General`
 
 ## Requirement
 
@@ -33,3 +33,9 @@ Primary green gate is named `check` and runs format check, lint/static analysis,
   }
 }
 ```
+
+## References
+
+- [`steipete/summarize` package.json](https://github.com/steipete/summarize/blob/main/package.json)
+- [`steipete/oracle` package.json](https://github.com/steipete/oracle/blob/main/package.json)
+- [`steipete/poltergeist` package.json](https://github.com/steipete/poltergeist/blob/main/package.json)

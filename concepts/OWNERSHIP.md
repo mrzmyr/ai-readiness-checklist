@@ -1,6 +1,6 @@
-# CODEOWNERS
+# OWNERSHIP
 
-Status: `OSS MATURE`
+Status: `Mature`
 
 ## Requirement
 
@@ -23,3 +23,7 @@ Active public repos define default review ownership.
 /src/security/ @org/security-reviewers
 /prisma/ @org/data-reviewers
 ```
+
+## References
+
+- [`steipete/cli` CODEOWNERS](https://github.com/steipete/cli/blob/main/.github/CODEOWNERS)

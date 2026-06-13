@@ -1,6 +1,6 @@
-# LOCAL_DEV_LOOP
+# DEVELOPMENT
 
-Status: `SERVICE`
+Status: `Service`
 
 ## Requirement
 
@@ -30,3 +30,9 @@ Docs define commands to start dependencies, run server/worker, stop services, an
 - Health: `curl -fsS http://127.0.0.1:3000/healthz`
 - Stop deps: `pnpm dev:deps:down`
 ```
+
+## References
+
+- [`steipete/sweetlink` AGENTS.md](https://github.com/steipete/sweetlink/blob/main/AGENTS.md)
+- [`steipete/inngest` AGENTS.md](https://github.com/steipete/inngest/blob/main/AGENTS.md)
+- [`steipete/stats-store` CONTRIBUTING.md](https://github.com/steipete/stats-store/blob/main/CONTRIBUTING.md)

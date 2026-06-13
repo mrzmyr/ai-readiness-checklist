@@ -1,6 +1,6 @@
-# MACHINE_INTERFACE
+# INTERFACE
 
-Status: `IF_APPLICABLE`
+Status: `Conditional`
 
 ## Requirement
 
@@ -23,3 +23,9 @@ CLIs and service tools expose stable `--json`, `--plain`, status, exit codes, or
 ```md
 Exit codes: `0` success, `1` input error, `2` no-op, `3` external dependency unavailable.
 ```
+
+## References
+
+- [`steipete/RepoBar` README](https://github.com/steipete/RepoBar/blob/main/README.md)
+- [`steipete/Trimmy` README](https://github.com/steipete/Trimmy/blob/main/README.md)
+- [`steipete/oracle` README](https://github.com/steipete/oracle/blob/main/README.md)

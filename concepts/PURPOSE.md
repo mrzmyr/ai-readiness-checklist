@@ -1,6 +1,6 @@
-# REPO_PURPOSE
+# PURPOSE
 
-Status: `REQUIRED`
+Status: `General`
 
 ## Requirement
 
@@ -33,3 +33,9 @@ pnpm dev:deps
 pnpm dev
 curl -fsS http://127.0.0.1:3000/healthz
 ```
+
+## References
+
+- [`steipete/CodexBar` README](https://github.com/steipete/CodexBar/blob/main/README.md)
+- [`steipete/oracle` README](https://github.com/steipete/oracle/blob/main/README.md)
+- [`steipete/sweetlink` README](https://github.com/steipete/sweetlink/blob/main/README.md)

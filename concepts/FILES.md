@@ -1,6 +1,6 @@
-# FILE_CONTRACT
+# FILES
 
-Status: `REQUIRED`
+Status: `General`
 
 ## Requirement
 
@@ -24,3 +24,9 @@ Repo has one documented place for each concern: agent rules, contributing, secur
 ## Notes
 
 Do not put everything in `AGENTS.md`. Keep `AGENTS.md` operational and link deeper docs.
+
+## References
+
+- [`steipete/summarize` AGENTS.md](https://github.com/steipete/summarize/blob/main/AGENTS.md)
+- [`steipete/agent-scripts` AGENTS.MD](https://github.com/steipete/agent-scripts/blob/main/AGENTS.MD)
+- [`steipete/sweetlink` AGENTS.md](https://github.com/steipete/sweetlink/blob/main/AGENTS.md)

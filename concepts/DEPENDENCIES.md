@@ -1,6 +1,6 @@
-# DEPENDENCY_GOVERNANCE
+# DEPENDENCIES
 
-Status: `OSS MATURE`
+Status: `Mature`
 
 ## Requirement
 
@@ -32,3 +32,9 @@ updates:
       dependencies:
         patterns: ["*"]
 ```
+
+## References
+
+- [`steipete/oracle` Dependabot config](https://github.com/steipete/oracle/blob/main/.github/dependabot.yml)
+- [`steipete/summarize` Dependabot config](https://github.com/steipete/summarize/blob/main/.github/dependabot.yml)
+- [`steipete/stats-store` Dependabot config](https://github.com/steipete/stats-store/blob/main/.github/dependabot.yml)

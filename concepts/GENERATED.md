@@ -1,6 +1,6 @@
-# GENERATED_ARTIFACTS
+# GENERATED
 
-Status: `IF_APPLICABLE`
+Status: `Conditional`
 
 ## Requirement
 
@@ -25,3 +25,8 @@ Generated files are listed with source-of-truth inputs, regeneration command, an
 - Source inputs live in `schema/*.graphql`.
 - After changing schema files, run `pnpm codegen && pnpm check`.
 ```
+
+## References
+
+- [`steipete/RepoBar` AGENTS.md](https://github.com/steipete/RepoBar/blob/main/AGENTS.md)
+- [`steipete/CodexBar` AGENTS.md](https://github.com/steipete/CodexBar/blob/main/AGENTS.md)

@@ -1,6 +1,6 @@
-# VERIFICATION_MATRIX
+# VERIFICATION
 
-Status: `REQUIRED`
+Status: `General`
 
 ## Requirement
 
@@ -25,3 +25,9 @@ Status: `REQUIRED`
 | DB schema | Migration check + repository test + `pnpm check` |
 | Auth/security | Stubbed tests only unless live approval is explicit |
 ```
+
+## References
+
+- [`steipete/deepsec` PR template](https://github.com/steipete/deepsec/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
+- [`steipete/poltergeist` PR template](https://github.com/steipete/poltergeist/blob/main/.github/pull_request_template.md)
+- [`steipete/RepoBar` AGENTS.md](https://github.com/steipete/RepoBar/blob/main/AGENTS.md)

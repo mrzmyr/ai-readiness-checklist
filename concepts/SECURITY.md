@@ -1,6 +1,6 @@
-# SECURITY_POLICY
+# SECURITY
 
-Status: `REQUIRED`
+Status: `General`
 
 ## Requirement
 
@@ -27,3 +27,9 @@ Status: `REQUIRED`
 Do not report vulnerabilities through public GitHub issues.
 Email security@example.com with description, impact, reproduction steps, affected versions, and suggested fix if known.
 ```
+
+## References
+
+- [`steipete/cli` SECURITY.md](https://github.com/steipete/cli/blob/main/SECURITY.md)
+- [`steipete/deepsec` SECURITY.md](https://github.com/steipete/deepsec/blob/main/SECURITY.md)
+- [`steipete/desktop-api-cli` SECURITY.md](https://github.com/steipete/desktop-api-cli/blob/main/SECURITY.md)

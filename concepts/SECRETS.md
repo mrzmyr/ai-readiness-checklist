@@ -1,6 +1,6 @@
-# SECRET_HANDLING
+# SECRETS
 
-Status: `REQUIRED`
+Status: `General`
 
 ## Requirement
 
@@ -25,3 +25,10 @@ Agent rules forbid secret logging, broad env dumps, unredacted auth headers, coo
 - Query exact env vars only when needed and redact values.
 - Never paste webhook payloads from production unless explicitly sanitized.
 ```
+
+## References
+
+- [`steipete/RepoBar` AGENTS.md](https://github.com/steipete/RepoBar/blob/main/AGENTS.md)
+- [`steipete/CodexBar` AGENTS.md](https://github.com/steipete/CodexBar/blob/main/AGENTS.md)
+- [`steipete/sweetlink` AGENTS.md](https://github.com/steipete/sweetlink/blob/main/AGENTS.md)
+- [`steipete/agent-scripts` AGENTS.MD](https://github.com/steipete/agent-scripts/blob/main/AGENTS.MD)

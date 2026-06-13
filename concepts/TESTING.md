@@ -1,6 +1,6 @@
-# TEST_STRATEGY
+# TESTING
 
-Status: `REQUIRED`
+Status: `General`
 
 ## Requirement
 
@@ -28,3 +28,9 @@ Status: `REQUIRED`
 - `tests/db/**`: repository tests with test database.
 - `tests/live/**`: skipped unless `PROVIDER_LIVE_TEST=1`.
 ```
+
+## References
+
+- [`steipete/deepsec` CONTRIBUTING.md](https://github.com/steipete/deepsec/blob/main/CONTRIBUTING.md)
+- [`steipete/sweetlink` AGENTS.md](https://github.com/steipete/sweetlink/blob/main/AGENTS.md)
+- [`steipete/summarize` AGENTS.md](https://github.com/steipete/summarize/blob/main/AGENTS.md)

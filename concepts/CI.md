@@ -1,6 +1,6 @@
-# CI_CHECK
+# CI
 
-Status: `REQUIRED`
+Status: `General`
 
 ## Requirement
 
@@ -32,3 +32,9 @@ CI runs the same `check` command or a documented strict superset.
 - run: pnpm install --frozen-lockfile
 - run: pnpm check
 ```
+
+## References
+
+- [`steipete/summarize` CI workflow](https://github.com/steipete/summarize/blob/main/.github/workflows/ci.yml)
+- [`steipete/oracle` CI workflow](https://github.com/steipete/oracle/blob/main/.github/workflows/ci.yml)
+- [`steipete/deepsec` CI workflow](https://github.com/steipete/deepsec/blob/main/.github/workflows/ci.yml)

@@ -1,6 +1,6 @@
-# ISSUE_INTAKE
+# ISSUES
 
-Status: `OSS`
+Status: `Open Source`
 
 ## Requirement
 
@@ -28,3 +28,9 @@ Issue templates require exact repro, version, platform, expected vs actual, and 
     label: Steps to reproduce
     description: Include exact commands.
 ```
+
+## References
+
+- [`steipete/cli` bug issue template](https://github.com/steipete/cli/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml)
+- [`steipete/deepsec` bug issue template](https://github.com/steipete/deepsec/blob/main/.github/ISSUE_TEMPLATE/bug.md)
+- [`steipete/stats-store` bug issue template](https://github.com/steipete/stats-store/blob/main/.github/ISSUE_TEMPLATE/bug_report.md)

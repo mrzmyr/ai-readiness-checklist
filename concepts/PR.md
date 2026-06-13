@@ -1,6 +1,6 @@
-# PR_PROOF
+# PR
 
-Status: `OSS`
+Status: `Open Source`
 
 ## Requirement
 
@@ -30,3 +30,9 @@ PR template requires what changed, why, exact verification commands, docs/change
 - [ ] Docs/changelog updated or not needed because: `<reason>`
 - [ ] No live secrets/accounts used
 ```
+
+## References
+
+- [`steipete/deepsec` PR template](https://github.com/steipete/deepsec/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
+- [`steipete/poltergeist` PR template](https://github.com/steipete/poltergeist/blob/main/.github/pull_request_template.md)
+- [`steipete/stats-store` PR template](https://github.com/steipete/stats-store/blob/main/.github/pull_request_template.md)

@@ -1,6 +1,6 @@
-# SERVICE_BOUNDARIES
+# ARCHITECTURE
 
-Status: `SERVICE`
+Status: `Service`
 
 ## Requirement
 
@@ -29,3 +29,9 @@ Backend layout separates routes/controllers, services, repositories, clients, wo
 - `src/clients/` - external APIs; mock in normal tests.
 - `src/workers/` - queue consumers and scheduled jobs.
 ```
+
+## References
+
+- [`steipete/deepsec` CONTRIBUTING.md](https://github.com/steipete/deepsec/blob/main/CONTRIBUTING.md)
+- [`steipete/sweetlink` AGENTS.md](https://github.com/steipete/sweetlink/blob/main/AGENTS.md)
+- [`steipete/stats-store` CLAUDE.md](https://github.com/steipete/stats-store/blob/main/CLAUDE.md)

@@ -1,6 +1,6 @@
-# LIVE_SYSTEM_GATES
+# LIVE
 
-Status: `REQUIRED`
+Status: `General`
 
 ## Requirement
 
@@ -24,3 +24,9 @@ Normal checks avoid live accounts; live tests require explicit opt-in env vars a
 ```md
 Live provider tests live in `tests/live/**` and require both `PROVIDER_LIVE_TEST=1` and explicit approval in the current task.
 ```
+
+## References
+
+- [`steipete/oracle` AGENTS.md](https://github.com/steipete/oracle/blob/main/AGENTS.md)
+- [`steipete/CodexBar` AGENTS.md](https://github.com/steipete/CodexBar/blob/main/AGENTS.md)
+- [`steipete/deepsec` CONTRIBUTING.md](https://github.com/steipete/deepsec/blob/main/CONTRIBUTING.md)

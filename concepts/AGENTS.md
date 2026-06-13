@@ -1,6 +1,6 @@
-# AGENT_ENTRYPOINT
+# AGENTS
 
-Status: `REQUIRED`
+Status: `General`
 
 ## Requirement
 
@@ -32,3 +32,10 @@ Root `AGENTS.md` defines exact agent operating rules, repo map, commands, verifi
 - Green gate: `pnpm check`
 - Focused webhook test: `pnpm vitest run tests/integration/webhooks.test.ts`
 ```
+
+## References
+
+- [`steipete/sweetlink` AGENTS.md](https://github.com/steipete/sweetlink/blob/main/AGENTS.md)
+- [`steipete/RepoBar` AGENTS.md](https://github.com/steipete/RepoBar/blob/main/AGENTS.md)
+- [`steipete/Trimmy` AGENTS.md](https://github.com/steipete/Trimmy/blob/main/AGENTS.md)
+- [`steipete/oracle` AGENTS.md](https://github.com/steipete/oracle/blob/main/AGENTS.md)

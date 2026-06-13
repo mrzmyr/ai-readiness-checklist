@@ -1,6 +1,6 @@
-# DATABASE_MIGRATIONS
+# MIGRATIONS
 
-Status: `SERVICE IF_APPLICABLE`
+Status: `Conditional`
 
 ## Requirement
 
@@ -29,3 +29,8 @@ Schema changes have migration commands, validation commands, rollback/forward po
   }
 }
 ```
+
+## References
+
+- [`steipete/stats-store` CLAUDE.md](https://github.com/steipete/stats-store/blob/main/CLAUDE.md)
+- [`steipete/deepsec` CONTRIBUTING.md](https://github.com/steipete/deepsec/blob/main/CONTRIBUTING.md)

@@ -1,6 +1,6 @@
-# RUNTIME_TOOLING
+# TOOLING
 
-Status: `REQUIRED`
+Status: `General`
 
 ## Requirement
 
@@ -27,3 +27,9 @@ Repo pins or documents runtime, package manager, install command, and lockfile p
 - Use `pnpm install --frozen-lockfile`.
 - Do not use npm/yarn/bun unless changing package-manager support.
 ```
+
+## References
+
+- [`steipete/sweetlink` AGENTS.md](https://github.com/steipete/sweetlink/blob/main/AGENTS.md)
+- [`steipete/inngest` AGENTS.md](https://github.com/steipete/inngest/blob/main/AGENTS.md)
+- [`steipete/deepsec` CONTRIBUTING.md](https://github.com/steipete/deepsec/blob/main/CONTRIBUTING.md)

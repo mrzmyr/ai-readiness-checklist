@@ -1,6 +1,6 @@
-# AI_PROVIDER_PREFLIGHT
+# PREFLIGHT
 
-Status: `IF_APPLICABLE`
+Status: `Conditional`
 
 ## Requirement
 
@@ -25,3 +25,9 @@ Paid or external AI/provider calls have dry-run/preflight/doctor commands and re
 - Redacted readiness: `oracle doctor --providers`
 - Route only: `oracle --route --model gpt-5.5-pro`
 ```
+
+## References
+
+- [`steipete/oracle` README](https://github.com/steipete/oracle/blob/main/README.md)
+- [`steipete/oracle` coding-agent docs](https://github.com/steipete/oracle/blob/main/docs/agents.md)
+- [`steipete/oracle` OpenAI endpoint docs](https://github.com/steipete/oracle/blob/main/docs/openai-endpoints.md)

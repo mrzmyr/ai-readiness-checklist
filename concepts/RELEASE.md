@@ -1,6 +1,6 @@
-# RELEASE_DELIVERY
+# RELEASE
 
-Status: `IF_APPLICABLE`
+Status: `Conditional`
 
 ## Requirement
 
@@ -30,3 +30,10 @@ Release docs define version bumps, artifact/package publish, deploy, smoke proof
 - Deploy: `pnpm deploy`.
 - Smoke: `curl -fsS https://api.example.com/healthz`.
 ```
+
+## References
+
+- [`steipete/Trimmy` release docs](https://github.com/steipete/Trimmy/blob/main/docs/release.md)
+- [`steipete/ReleaseBar` AGENTS.md](https://github.com/steipete/ReleaseBar/blob/main/AGENTS.md)
+- [`steipete/summarize` AGENTS.md](https://github.com/steipete/summarize/blob/main/AGENTS.md)
+- [`steipete/agent-scripts` AGENTS.MD](https://github.com/steipete/agent-scripts/blob/main/AGENTS.MD)

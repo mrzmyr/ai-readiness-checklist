@@ -1,6 +1,6 @@
-# FOCUSED_COMMANDS
+# FOCUS
 
-Status: `REQUIRED`
+Status: `General`
 
 ## Requirement
 
@@ -25,3 +25,9 @@ Docs list focused commands for common change surfaces, but still require `check`
 - DB repo: `pnpm vitest run tests/db/events-repository.test.ts`
 - Contract: `pnpm vitest run tests/contracts/public-api.test.ts`
 ```
+
+## References
+
+- [`steipete/deepsec` CONTRIBUTING.md](https://github.com/steipete/deepsec/blob/main/CONTRIBUTING.md)
+- [`steipete/oracle` AGENTS.md](https://github.com/steipete/oracle/blob/main/AGENTS.md)
+- [`steipete/sweetlink` AGENTS.md](https://github.com/steipete/sweetlink/blob/main/AGENTS.md)
