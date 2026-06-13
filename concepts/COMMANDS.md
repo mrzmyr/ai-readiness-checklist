@@ -11,11 +11,15 @@ Docs list focused commands for common change surfaces, but still require `check`
 - Common change surfaces have focused commands.
 - Focused commands are faster than `check`.
 - Docs say `check` is still required before handoff.
+- Long command sequences are wrapped in `scripts/`, `bin/`, `make`, `just`, `Taskfile`, or package scripts.
+- Whatever command runner is used, the canonical green gate is still named `check`.
 
 ## Automatable Checks
 
 - `AGENTS.md` or `docs/testing.md` contains focused command examples.
 - Same doc mentions `check` before handoff.
+- Repo has a discoverable `check` target/script.
+- Long multi-step commands are represented by a checked-in helper instead of prose-only instructions.
 
 ## Example
 
@@ -24,6 +28,9 @@ Docs list focused commands for common change surfaces, but still require `check`
 - Service: `pnpm vitest run tests/services/billing.test.ts`
 - DB repo: `pnpm vitest run tests/db/events-repository.test.ts`
 - Contract: `pnpm vitest run tests/contracts/public-api.test.ts`
+- Full gate: `pnpm check`
+- Release helper: `scripts/release.sh`
+- Task runner: `make check` or `just check`
 ```
 
 ## References

@@ -12,12 +12,15 @@ Primary green gate is named `check` and runs format check, lint/static analysis,
 - Runs format check, lint/static analysis, typecheck/build, and tests.
 - Requires no secrets/live accounts.
 - Exits nonzero on failure.
+- May be exposed through package scripts, `make`, `just`, `Taskfile`, or another repo-standard runner.
+- Regardless of runner, the command name is `check`.
 
 ## Automatable Checks
 
 - `package.json#scripts.check` exists for Node repos.
 - `check` command references lint/typecheck/test/build equivalents.
 - `check` does not reference live-test env vars.
+- Non-Node repos expose a `check` target in their primary task runner.
 
 ## Example
 

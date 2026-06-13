@@ -15,6 +15,9 @@ Root `AGENTS.md` defines exact agent operating rules, repo map, commands, verifi
 - Verification matrix.
 - Security/live-system rules.
 - Generated-file rules if applicable.
+- Assistant-specific files either do not exist or only point back to `AGENTS.md`.
+- Nested `AGENTS.md` files exist only when subtree rules differ.
+- Shared/global guardrail blocks stay separate from repo-specific rules.
 
 ## Automatable Checks
 
@@ -22,6 +25,7 @@ Root `AGENTS.md` defines exact agent operating rules, repo map, commands, verifi
 - Contains `Commands`.
 - Contains `Verification` or `Verification Matrix`.
 - Contains `Security` or `Secrets`.
+- If `CLAUDE.md`, `.github/copilot-instructions.md`, or similar files exist, they mention `AGENTS.md`.
 
 ## Example
 
@@ -31,6 +35,12 @@ Root `AGENTS.md` defines exact agent operating rules, repo map, commands, verifi
 - Install: `pnpm install --frozen-lockfile`
 - Green gate: `pnpm check`
 - Focused webhook test: `pnpm vitest run tests/integration/webhooks.test.ts`
+
+## Assistant Routing
+
+- `AGENTS.md` is the source of truth for coding agents.
+- `CLAUDE.md` and Copilot instructions must link here instead of duplicating rules.
+- Add nested `AGENTS.md` files only when a subtree has different commands, generated files, or safety rules.
 ```
 
 ## References

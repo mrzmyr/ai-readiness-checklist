@@ -18,6 +18,7 @@ Applies to every active repo.
 | [`CI`](concepts/CI.md) | CI runs:<br>- same `check` command<br>- or documented strict superset |
 | [`COMMANDS`](concepts/COMMANDS.md) | docs list:<br>- focused commands by change surface<br>- rule that `check` is still required before handoff |
 | [`VERIFICATION_MATRIX`](concepts/VERIFICATION_MATRIX.md) | `AGENTS.md` maps:<br>- change type<br>- required proof<br>- exact command |
+| [`HANDOFF`](concepts/HANDOFF.md) | agent handoff includes:<br>- summary<br>- files changed<br>- commands run<br>- proof artifacts<br>- skipped checks/known gaps |
 | [`TESTING`](concepts/TESTING.md) | docs define:<br>- test types<br>- fixture locations<br>- naming pattern<br>- live-test gates |
 | [`SECURITY`](concepts/SECURITY.md) | `SECURITY.md` defines:<br>- private vulnerability reporting<br>- supported versions<br>- scope<br>- response expectations<br>- confidentiality |
 | [`SECRETS`](concepts/SECRETS.md) | agent rules forbid:<br>- secret logging<br>- broad env dumps<br>- unredacted auth headers/cookies<br>- private payload leaks |
@@ -40,6 +41,7 @@ Applies to public or open-contribution repos.
 
 | Concept | Requirement |
 |---|---|
+| [`LICENSE`](concepts/LICENSE.md) | public repo defines:<br>- root license file<br>- matching package metadata<br>- no contradictory README/package claims |
 | [`PULL_REQUEST`](concepts/PULL_REQUEST.md) | PR template requires:<br>- what changed<br>- why<br>- verification commands<br>- docs/changelog decision<br>- reviewer notes |
 | [`ISSUES`](concepts/ISSUES.md) | issue templates require:<br>- exact repro<br>- version<br>- platform<br>- expected vs actual<br>- redacted logs |
 
