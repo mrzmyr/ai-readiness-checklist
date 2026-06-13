@@ -44,7 +44,7 @@ Applies to public or open-contribution repos.
 
 | Concept | Requirement |
 |---|---|
-| [`PR`](concepts/PR.md) | PR template requires:<br>- what changed<br>- why<br>- verification commands<br>- docs/changelog decision<br>- reviewer notes |
+| [`PULL_REQUEST`](concepts/PULL_REQUEST.md) | PR template requires:<br>- what changed<br>- why<br>- verification commands<br>- docs/changelog decision<br>- reviewer notes |
 | [`ISSUES`](concepts/ISSUES.md) | issue templates require:<br>- exact repro<br>- version<br>- platform<br>- expected vs actual<br>- redacted logs |
 
 ### Conditional
@@ -53,12 +53,8 @@ Applies only when the repo has the matching surface.
 
 | Concept | Requirement |
 |---|---|
-| [`SHARING`](concepts/SHARING.md) | shared rules have:<br>- generated block markers<br>- repo-local rules outside the block |
 | [`MAINTENANCE`](concepts/MAINTENANCE.md) | archived/maintenance-only repos state:<br>- support status<br>- accepted change types<br>- replacement project |
 | [`MIGRATIONS`](concepts/MIGRATIONS.md) | schema changes define:<br>- migration commands<br>- validation commands<br>- rollback/forward policy<br>- test DB guidance |
-| [`INTERFACE`](concepts/INTERFACE.md) | CLIs/service tools expose:<br>- `--json` or `--plain`<br>- status/health endpoint<br>- documented exit codes |
-| [`PREFLIGHT`](concepts/PREFLIGHT.md) | paid/provider calls have:<br>- dry-run/preflight/doctor command<br>- redacted diagnostics |
-| [`GENERATED`](concepts/GENERATED.md) | generated files define:<br>- source-of-truth inputs<br>- regeneration command<br>- no-hand-edit rule |
 | [`RELEASE`](concepts/RELEASE.md) | release docs define:<br>- version bumps<br>- artifact/package publish<br>- deploy<br>- smoke proof<br>- failure handling |
 | [`CHANGELOG`](concepts/CHANGELOG.md) | user-visible changes have:<br>- documented changelog rule<br>- changelog location |
 
@@ -70,4 +66,4 @@ Useful for larger, high-risk, or heavily maintained repos.
 |---|---|
 | [`DEPENDENCIES`](concepts/DEPENDENCIES.md) | dependency policy defines:<br>- ecosystems<br>- cadence<br>- grouping<br>- PR limits |
 | [`OWNERSHIP`](concepts/OWNERSHIP.md) | active public repos define:<br>- default review ownership<br>- high-risk area ownership |
-| [`CONSULT`](concepts/CONSULT.md) | risky changes define:<br>- when to ask another model/tool<br>- dry-run context command<br>- result citation |
+| [`REVIEW`](concepts/REVIEW.md) | risky changes define:<br>- when to ask another model/tool<br>- dry-run context command<br>- result citation |
