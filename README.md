@@ -3,13 +3,14 @@
 Working space for AI transformation areas and the docs behind them.
 
 ```mermaid
+%%{init: {"block": {"padding": 36}} }%%
 block
     columns 5
-    products["<br/>AI in Products<br/>"]
-    workflow["<br/>Workflow Automation<br/>"]
-    sdlc["<br/>SDLC<br/>"]
-    reporting["<br/>Reporting<br/>"]
-    people["<br/>People<br/>"]
+    products["AI in Products"]
+    workflow["Workflow Automation"]
+    sdlc["SDLC"]
+    reporting["Reporting"]
+    people["People"]
 
     classDef productsClass fill:#8FE8D0,stroke:#111827,stroke-width:2px,color:#111827;
     classDef workflowClass fill:#C8B6F3,stroke:#111827,stroke-width:2px,color:#111827;
