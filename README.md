@@ -5,11 +5,11 @@ Working space for AI transformation areas and the docs behind them.
 ```mermaid
 block
     columns 5
-    products["AI in Products"]
-    workflow["Workflow Automation"]
-    sdlc["SDLC"]
-    reporting["Reporting"]
-    people["People"]
+    products["<br/>AI in Products<br/>"]
+    workflow["<br/>Workflow Automation<br/>"]
+    sdlc["<br/>SDLC<br/>"]
+    reporting["<br/>Reporting<br/>"]
+    people["<br/>People<br/>"]
 
     classDef productsClass fill:#8FE8D0,stroke:#111827,stroke-width:2px,color:#111827;
     classDef workflowClass fill:#C8B6F3,stroke:#111827,stroke-width:2px,color:#111827;
@@ -23,8 +23,6 @@ block
     class reporting reportingClass
     class people peopleClass
 ```
-
-GitHub supports Mermaid in Markdown via fenced `mermaid` blocks. Mermaid supports block color styling with `classDef`, which is what the matrix uses.
 
 ## Areas
 
