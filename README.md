@@ -1,10 +1,8 @@
+<p align="center">
+  <img src="assets/checklist-clipboard.png" alt="AI Readiness Checklist" width="160">
+</p>
+
 # AI Readiness Checklist
-
-> [!NOTE]
-> Goal: one canonical checklist that can later become an automated repo-readiness test.
-> Detailed examples live in linked Markdown files, not in this checklist.
-
-## Checklist
 
 ### General
 
